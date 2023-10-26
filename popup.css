@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 600px;
+}
+
+h1 {
+  padding: 16px;
+  font-size: 18px;
+  border-bottom: 1px solid #d9d9dc;
+}
+
+.container {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 320px;
+}
+
+.text_box {
+  height: 220px;
+  width: 300px;
+  border: 1px solid #d9d9dc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 8px 0;
+}
+
+.text_box p {
+  font-size: 12px;
+}
